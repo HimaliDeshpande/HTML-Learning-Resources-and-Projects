@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Sample</title>
+</head>
+<body>
+
+    <!-- Headings -->
+    <h1>This is an H1 Heading</h1>
+    <h2>This is an H2 Heading</h2>
+    <h3>This is an H3 Heading</h3>
+    <h4>This is an H4 Heading</h4>
+    <h5>This is an H5 Heading</h5>
+    <h6>This is an H6 Heading</h6>
+
+    <!-- Paragraph and Line Break -->
+    <p>This is a paragraph of text.</p>
+    <p>This is another paragraph of text with a <br> line break.</p>
+
+    <!-- Horizontal Rule -->
+    <hr>
+
+    <!-- Preformatted Text and Code -->
+    <pre>
+        This is preformatted text.
+        It preserves whitespace and line breaks.
+    </pre>
+    <code>
+        &lt;html&gt;
+        &lt;head&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code>
+
+    <!-- Division -->
+    <div>
+        This is a div element.
+    </div>
+
+    <!-- Table -->
+    <table border="1">
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Ordered List -->
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+
+    <!-- More Tags -->
+    <a href="#">This is a link</a>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
